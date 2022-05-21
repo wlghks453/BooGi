@@ -30,7 +30,7 @@ BooGi CLI is creating following directory structure
 
 ```bash
 +-- .boogi.yml   # BooGi CLI configuration file
-+-- package.json # 
++-- package.json #
 +-- README.md    # Your BooGi app readme
 │
 +-- assets/      # Directory with static assets not used inside content (e.g. logo)

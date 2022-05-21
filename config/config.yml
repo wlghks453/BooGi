@@ -1,9 +1,9 @@
 ---
 metadata:
-  name: BooGi
+  name: EzLeeji
   short_name: BooGi
   description: BooGi - awesome GitBook-like documentation generator using Gatsby
-  language: en
+  language: kr
   pathPrefix: "/"
   siteImage:
   favicon: "/assets/favicon.png"
@@ -14,15 +14,15 @@ header:
   logoLink: "/"
   helpUrl: ""
   links:
-    - text: BooGi
-      link: https://github.com/filipowm/boogi
-      external: true
-    - text: Gatsby
-      link: https://www.gatsbyjs.org
-      external: true
-    - text: Docs
-      link: "/"
-      external: false
+#    - text: BooGi
+#      link: https://github.com/filipowm/boogi
+#      external: true
+#    - text: Gatsby
+#      link: https://www.gatsbyjs.org
+#      external: true
+#    - text: Docs
+#      link: "/"
+#      external: false
 sidebar:
   enabled: true
   # forcedNavOrder:
@@ -32,30 +32,33 @@ sidebar:
   # expanded:
   groups:
     - order: 1
+      path: "/mariadb"
+      title: ":postbox: MariaDB"
+    - order: 2
       path: "/gettingstarted"
       title: ":rocket: Getting Started"
-    - order: 2
+    - order: 3
       path: "/configuration"
       title: ":wrench: Configuration"
-    - order: 3
+    - order: 4
       path: "/editing"
       title: ":writing_hand: Editing Content"
-    - order: 4
+    - order: 5
       path: "/deployment"
       title: ":rocket: Deployment"
-    - order: 5
+    - order: 6
       path: "/developing"
       title: ":computer: Developing"
   links:
-    - text: BooGi
-      link: https://github.com/filipowm/boogi
-    - text: React
-      link: https://reactjs.org
+#    - text: BooGi
+#      link: https://github.com/filipowm/boogi
+#    - text: React
+#      link: https://reactjs.org
   ignoreIndex: false
-  poweredBy:
-    trademark: "/assets/gatsby.png"
-    name: GatsbyJS
-    link: https://www.gatsbyjs.org
+#  poweredBy:
+#    trademark: "/assets/gatsby.png"
+#    name: GatsbyJS
+#    link: https://www.gatsbyjs.org
 pwa:
   enabled: true
   manifest:
@@ -64,16 +67,16 @@ pwa:
     icon: "/assets/favicon.png"
 
 social:
-  github: https://github.com/filipowm/boogi
-  linkedin: https://www.linkedin.com/in/mateusz-filipowicz-437b4768/
-  twitter: twitter url
+#  github: https://github.com/filipowm/boogi
+#  linkedin: https://www.linkedin.com/in/mateusz-filipowicz-437b4768/
+#  twitter: twitter url
 
 features:
   darkMode:
-    enabled: true  
+    enabled: true
     default: false
   editOnRepo:
-    location: https://github.com/filipowm/boogi 
+    location: https://github.com/filipowm/boogi
     type: github
     editable: true
   mermaid:
@@ -129,7 +132,7 @@ features:
   toc:
     show: true
     depth: 4
-  fullScreenMode: 
+  fullScreenMode:
     enabled: true
     hideHeader: true
     hideToc: true
