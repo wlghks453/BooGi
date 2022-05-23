@@ -22,7 +22,7 @@ SQL문과 함께 실행계획과 튜닝을 해볼꺼라서 기본적인 TABLE을
 | TABLE NAME              | Description                                                                                                                                                                                                                                                 |
 |-------------------------|-----------------------|
 | `DEPARTMENT`            | 부서 테이블.            |
-| `DEPARTMENTAL_EMPLOYEE` | 부서와 사원 매핑 테이블.  |
+| `DEPARTMENT_EMPLOYEE`   | 부서와 사원 매핑 테이블.  |
 | `DEPARTMENT_MANAGER`    | 부서의 관리자 테이블.     |
 | `EMPLOYEE`              | 사원 테이블.            |
 | `EMPLOYEE_ACCESS`       | 사원출입기록 테이블.      |
