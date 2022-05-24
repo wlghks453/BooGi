@@ -5,7 +5,7 @@ tocDepth: 2
 ---
 
 Crucial for any technical documentation is possibility to add code snippets
-with proper highlighting. BooGi supports various programming languages and 
+with proper highlighting. BooGi supports various programming languages and
 syntaxes.
 
 To add code snippet, you can use:
@@ -37,6 +37,15 @@ const uppercase = value => value.toUpperCase();
 ```
 ~~~
 
+SQL 테스트
+
+
+```sql
+select * from table
+```
+
+
+
 ### Supported languages and syntaxes
 
 <Warning>New languages and syntaxes will be added soon!</Warning>
@@ -61,9 +70,9 @@ const uppercase = value => value.toUpperCase();
 * graphql
 * handlebars
 * json
-  
+
 </div>
-  
+
 <div>
 
 * less
@@ -81,21 +90,21 @@ const uppercase = value => value.toUpperCase();
 * typescript
 * wasm
 * yaml
-  
+
 </div>
 
 </Layout>
 
 ### Diff
 
-The following is a code block with diff. 
-Lines with `+` highlighted in green shade indicating an addition. 
+The following is a code block with diff.
+Lines with `+` highlighted in green shade indicating an addition.
 Lines with `-` highlighted in red shade indicating a deletion.
 
 ```javascript
 - const data = ['1','2'];
 + const data = [1,2];
-``` 
+```
 
 ### Live editing
 
