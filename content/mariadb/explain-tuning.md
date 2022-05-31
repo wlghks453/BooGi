@@ -31,7 +31,7 @@ SQL문과 함께 실행계획과 튜닝을 해볼꺼라서 기본적인 TABLE을
                                                                                                                                                                        |
 해당 테이블을 가지고 실행계획 및 튜닝을 해보자
 
-<Warning>
+<Info>
 - MariaDB version 10.5.16 로 진행
-</Warning>
+</Info>
 
