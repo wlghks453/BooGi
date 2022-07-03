@@ -1,5 +1,5 @@
 ---
-title: "실행계획과 튜닝"
+title: "실행계획"
 order: 1
 editable : false
 tocDepth: 1

@@ -35,18 +35,21 @@ sidebar:
       path: "/mariadb"
       title: ":postbox: MariaDB"
     - order: 2
+      path: "/kafka"
+      title: ":postbox: Kafka"
+    - order: 3
       path: "/gettingstarted"
       title: ":rocket: Getting Started"
-    - order: 3
+    - order: 4
       path: "/configuration"
       title: ":wrench: Configuration"
-    - order: 4
+    - order: 5
       path: "/editing"
       title: ":writing_hand: Editing Content"
-    - order: 5
+    - order: 6
       path: "/deployment"
       title: ":rocket: Deployment"
-    - order: 6
+    - order: 7
       path: "/developing"
       title: ":computer: Developing"
   links:
