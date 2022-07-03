@@ -6,7 +6,7 @@ module.exports = {
     language: 'ko',
     url: 'https://ezleeji.netlify.app/',
     pathPrefix: '/',
-    gaTrackingId: null,
+    gaTrackingId: 'UA-233489798-1',
     siteImage: null,
     favicon: '/assets/favicon.png',
     themeColor: '#',
