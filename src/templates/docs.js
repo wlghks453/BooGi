@@ -92,7 +92,7 @@ const LastUpdated = styled(({ className, time, name }) => {
       </i>{' '}
       by
       <i>
-        <b> {name}</b>
+        <b> Ezleeji </b>
       </i>
     </span>
   );

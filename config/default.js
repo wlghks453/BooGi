@@ -1,10 +1,10 @@
 module.exports = {
   metadata: {
-    name: 'BooGi',
-    short_name: 'BooGi',
-    description: '',
-    language: 'en',
-    url: 'http://localhost',
+    name: 'EzLeeji',
+    short_name: 'EzLeeji',
+    description: '안녕하세요.',
+    language: 'ko',
+    url: 'https://ezleeji.netlify.app/',
     pathPrefix: '/',
     gaTrackingId: null,
     siteImage: null,
